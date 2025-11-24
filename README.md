@@ -1,18 +1,23 @@
-Dexed - FM Plugin Synth
+Dexex - FM Plugin Synth
 =======================
 
-Please see [Dexed User Website](https://asb2m10.github.io/dexed) for user and download information.
+This is a fork of [Dexed](https://github.com/google/music-synthesizer-for-android) for experimentation
+with FM synthesis features that are out of scope for Dexed.
 
 Dexed is a multi-platform, multi format plugin synth that is closely modeled on the Yamaha DX7.
 Under the hood it uses [music-synthesizer-for-android](https://github.com/google/music-synthesizer-for-android)
 for the synth engine and [JUCE](https://www.juce.com) as an application/plugin wrapper.
 
-The goal of this project is to be a tool/companion for the original DX7. Sound engine
+The goal of the Dexed project is to be a tool/companion for the original DX7. Sound engine
 with 'float' value parameters, different waveform à la TX81z would be great but anything that
 goes beyond the DX7 should and will be a fork of this project. This is to keep the compatibility with
 the original machine.
 
-Dexed is licensed on the GPL v3. The msfa component (acronym for music synthesizer for android, see msfa
+The goal of the Dexex project is to use the great foundation of Dexed to add newer features found on more
+modern FM synths, such as the Korg Opsix and Yamaha FM-X synths. e.g. operators other than sine waves, 
+more operators, more algorithms, processing of operators, effects, filters, etc.
+
+Both Dexed and Dexex are licensed on the GPL v3. The msfa component (acronym for music synthesizer for android, see msfa
 in the source folder) stays on the Apache 2.0 license to be able to collaborate between projects.
 
 Pre-release builds are available with the [Nightly Releases](https://github.com/asb2m10/dexed/releases/tag/Nightly)

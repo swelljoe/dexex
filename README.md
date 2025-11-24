@@ -2,7 +2,8 @@ Dexex - FM Plugin Synth
 =======================
 
 This is a fork of [Dexed](https://github.com/google/music-synthesizer-for-android) for experimentation
-with FM synthesis features that are out of scope for Dexed.
+with FM synthesis features that are out of scope for Dexed. It tracks upstream Dexed, as much as possible
+and for as long as possible, but seems likely to diverge in notable ways as new features are added.
 
 Dexed is a multi-platform, multi format plugin synth that is closely modeled on the Yamaha DX7.
 Under the hood it uses [music-synthesizer-for-android](https://github.com/google/music-synthesizer-for-android)
